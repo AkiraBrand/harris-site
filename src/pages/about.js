@@ -4,7 +4,7 @@ import Header from "../components/header.js"
 export default function About() {
   return (
     <div style={{ color: `teal` }}>
-      <Header />
+      <Header headerText="Hey, my name is Harri!" />
       <p>I love stick and poke and drawing.</p>
     </div>
   )

@@ -1,11 +1,12 @@
 import React from "react"
+import Header from "..components/header.js"
 
 export default function Home() {
   return (
     <div style={{ color: `purple`}}>
-    <h1>Harii's art!</h1>
-    <p>Welcome to my gallery.</p>
-    <img src="https://source.unsplash.com/random/400x200" alt="" />
+      <Header headerText="Harii's art!" />
+      <p>Welcome to my gallery.</p>
+      <img src="https://source.unsplash.com/random/400x200" alt="" />
     </div>
   );
 }
