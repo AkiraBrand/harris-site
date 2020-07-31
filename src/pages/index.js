@@ -7,7 +7,7 @@ export default function Home() {
     <div style={{ color: `purple`}}>
       <Link to="/about/">About</Link>
       <Link to="/contact">Contact</Link>
-      <Header headerText="Harii's art!" />
+      <Header headerText="Milk of Blossoms" />
       <p>Welcome to my gallery.</p>
       <img src="https://source.unsplash.com/random/400x200" alt="" />
     </div>
